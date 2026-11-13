@@ -344,43 +344,6 @@
     },
     {
       "dataset": "335",
-      "id": "20261112_230311_8b8f2e",
-      "name": "开合玻璃罐",
-      "frames": 499,
-      "fps": 30.0,
-      "duration": 16.633333333333333,
-      "width": 1280,
-      "height": 720,
-      "src": "335-20261112_230311_8b8f2e-baseline-grid.mp4",
-      "poster": "335-20261112_230311_8b8f2e-baseline-grid.jpg",
-      "header_px": 0,
-      "panel_count": 4,
-      "panel_layout": {
-        "rows": 2,
-        "columns": 2
-      },
-      "display_order": [
-        "Reference",
-        "Raw Depth",
-        "LingBot-Depth",
-        "NSL"
-      ],
-      "range_mm": [
-        308,
-        2124
-      ],
-      "methods": [
-        "camera_raw",
-        "nsl",
-        "lingbot"
-      ],
-      "filter": {
-        "jump_threshold_mm": 100,
-        "dilation_radius_px": 1
-      }
-    },
-    {
-      "dataset": "335",
       "id": "20261112_230428_82c5d4",
       "name": "拿放杯子",
       "frames": 330,
