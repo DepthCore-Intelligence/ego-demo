@@ -1,0 +1,50 @@
+[
+  {
+    "src": "ego63-183226.mp4",
+    "poster": "ego63-183226-poster.jpg",
+    "thumb": "ego63-183226-thumb.jpg",
+    "duration": 31.3,
+    "frames": 939,
+    "fps": 30
+  },
+  {
+    "src": "ego63-183310.mp4",
+    "poster": "ego63-183310-poster.jpg",
+    "thumb": "ego63-183310-thumb.jpg",
+    "duration": 25.566666666666666,
+    "frames": 767,
+    "fps": 30
+  },
+  {
+    "src": "ego63-183438.mp4",
+    "poster": "ego63-183438-poster.jpg",
+    "thumb": "ego63-183438-thumb.jpg",
+    "duration": 39.36666666666667,
+    "frames": 1181,
+    "fps": 30
+  },
+  {
+    "src": "ego63-183532.mp4",
+    "poster": "ego63-183532-poster.jpg",
+    "thumb": "ego63-183532-thumb.jpg",
+    "duration": 30.8,
+    "frames": 924,
+    "fps": 30
+  },
+  {
+    "src": "ego119-183145.mp4",
+    "poster": "ego119-183145-poster.jpg",
+    "thumb": "ego119-183145-thumb.jpg",
+    "duration": 26.7,
+    "frames": 801,
+    "fps": 30
+  },
+  {
+    "src": "ego119-183229.mp4",
+    "poster": "ego119-183229-poster.jpg",
+    "thumb": "ego119-183229-thumb.jpg",
+    "duration": 33.96666666666667,
+    "frames": 1019,
+    "fps": 30
+  }
+]

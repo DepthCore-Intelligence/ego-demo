@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#faf9f5">
+<title>DepthCore</title>
+<link rel="icon" href="depthcore-logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+<main class="page">
+<header class="site-header"><a class="brand" href="#top" aria-label="DepthCore"><img src="depthcore-logo.svg" alt="DepthCore 深度核芯科技" width="136"></a></header>
+<section id="videos" aria-label="视频对照">
+<figure class="wide">
+<div id="dcVideoStage">
+<div class="video-viewport" id="dcVideoViewport">
+<video id="dcVideo" playsinline preload="metadata" loop tabindex="0" aria-label="Input、TradSL、LingBot-Depth、NSL 同步视频"></video>
+<i class="video-divider vertical" aria-hidden="true"></i><i class="video-divider horizontal" aria-hidden="true"></i>
+<div class="video-labels" aria-hidden="true"><span>Input</span><span>TradSL</span><span>LingBot-Depth</span><span>NSL</span></div>
+<div class="loading" aria-hidden="true"></div>
+<button id="videoRetry" aria-label="重新加载视频" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 7v5h-5M19.5 12a7.5 7.5 0 1 1-2.2-5.3L20 9"/></svg></button>
+</div>
+<div class="playback">
+<button id="videoPlay" aria-label="播放" aria-pressed="false"><svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7Z"/></svg><svg class="pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg></button>
+<input id="videoSeek" type="range" min="0" max="1000" value="0" step="1" aria-label="视频进度">
+<button id="videoFullscreen" aria-label="全屏"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5"/></svg></button>
+</div>
+</div>
+<div id="videoLibrary"><div id="videoCards" role="group" aria-label="视频选择"></div></div>
+</figure>
+</section>
+</main>
+<script src="app.js" defer></script>
+</body>
+</html>
